@@ -20,6 +20,6 @@ Codes made in python
   3. Field 3 (Fieldname = 'DateOfBirth', startPosition = '21', endPosition = '28')
   
   The result file would be created with row as:
-  > Nitin     Dhiman    19900230
+  Nitin     Dhiman    19900230
   
   
