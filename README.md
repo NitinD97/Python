@@ -2,17 +2,17 @@
 Codes made in python
 
 
-# Codes List
+## Codes List
 1. TicTacToe
 2. Fixed Width File Maker
 
-## 1. TicTacToe
+### 1. TicTacToe
   Script name: `tic_tac.py`
   A game based on tic tac toe.
   
 
-## 2. Fixed Width File Maker
-  Script name: `FixedWidthFileCreater.py`
+### 2. Fixed Width File Maker
+  Script name: `FixedWidthFileCreater.py`\
   Used to create files whose fields are placed at a specific positions with specified encoding-type.
   Example:
   1. Field 1 (Fieldname = 'FirstName', startPosition = '1', endPosition = '10')
