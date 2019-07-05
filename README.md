@@ -18,6 +18,7 @@ Codes made in python
   > Field 1 (Fieldname = 'FirstName', startPosition = '1', endPosition = '10')
   > Field 2 (Fieldname = 'LastName', startPosition = '11', endPosition = '20')
   > Field 3 (Fieldname = 'DateOfBirth', startPosition = '21', endPosition = '28')
+  
   The result file would be created with row as:
   `Nitin     Dhiman    19900230`
   
