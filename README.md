@@ -15,11 +15,9 @@ Codes made in python
   Script name: `FixedWidthFileCreater.py`
   Used to create files whose fields are placed at a specific positions with specified encoding-type.
   Example:
-  > Field 1 (Fieldname = 'FirstName', startPosition = '1', endPosition = '10')
-  
-  > Field 2 (Fieldname = 'LastName', startPosition = '11', endPosition = '20')
-  
-  > Field 3 (Fieldname = 'DateOfBirth', startPosition = '21', endPosition = '28')
+  1. Field 1 (Fieldname = 'FirstName', startPosition = '1', endPosition = '10')
+  2. Field 2 (Fieldname = 'LastName', startPosition = '11', endPosition = '20')
+  3. Field 3 (Fieldname = 'DateOfBirth', startPosition = '21', endPosition = '28')
   
   The result file would be created with row as:
   `Nitin     Dhiman    19900230`
