@@ -23,3 +23,6 @@ Codes made in python
   > Nitin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dhiman&nbsp;&nbsp;&nbsp;&nbsp;19900230
   
   
+### 3. Black Jack
+  Script name: `black_jack.py`\
+  A basic game of black implementing some of the rules from the original game.
