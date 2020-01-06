@@ -5,6 +5,7 @@ Codes made in python
 ## Codes List
 1. TicTacToe
 2. Fixed Width File Maker
+3. Black Jack
 
 ### 1. TicTacToe
   Script name: `tic_tac.py`
