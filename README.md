@@ -6,6 +6,7 @@ Codes made in python
 1. TicTacToe
 2. Fixed Width File Maker
 3. Black Jack
+4. Robot Tile Cleanup
 
 ### 1. TicTacToe
   Script name: `tic_tac.py`
@@ -27,3 +28,7 @@ Codes made in python
 ### 3. Black Jack
   Script name: `black_jack.py`\
   A basic game of black implementing some of the rules from the original game.
+
+### 4. Robot Cleanup
+  Script name: `robot_cleanup.py`\
+  A recursive script, where 0s are tiles, -1s are object. The robot has to clean all the tiles in the room, the cleaned tiles will be marked as 1 and the robot can be spawned at any coordinate inside the room.
