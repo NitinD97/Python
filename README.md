@@ -7,6 +7,7 @@ Codes made in python
 2. Fixed Width File Maker
 3. Black Jack
 4. Robot Tile Cleanup
+5. Image Resizer
 
 ### 1. TicTacToe
   Script name: `tic_tac.py`
@@ -32,3 +33,8 @@ Codes made in python
 ### 4. Robot Cleanup
   Script name: `robot_cleanup.py`\
   A recursive script, where 0s are tiles, -1s are object. The robot has to clean all the tiles in the room, the cleaned tiles will be marked as 1 and the robot can be spawned at any coordinate inside the room.
+  
+### 5. Image Resize
+  Script name: `image_resize.py`\
+  A script to change the image scale, just put path to the directory in which all the images that needs to be changes are present, put the width and height of that you need for the new image.
+  Made using openCV
