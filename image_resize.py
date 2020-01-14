@@ -4,7 +4,7 @@ import os
 
 def resize(image_name, x=100, y=100):
     # flag = 1 for colored, 0 for black and white, -1 color with alpha (transparency)
-    img = cv2.imread(image_name, 0)
+    img = cv2.imread(image_name, 1)
     image_name = os.path.split(image_name)
     new_name = 'resized_'+image_name[-1]
     new_name = os.path.join(*image_name[:-1], new_name)
