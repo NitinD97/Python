@@ -41,5 +41,5 @@ Codes made in python
   Made using openCV
 
 ### 6. Face Detector
-  Script name: `face_detector.py`
+  Script name: `face_detector.py`\
   This script identifies if there is a face in the given picture and marks it with a rectangle.
