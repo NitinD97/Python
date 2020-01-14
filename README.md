@@ -8,6 +8,7 @@ Codes made in python
 3. Black Jack
 4. Robot Tile Cleanup
 5. Image Resizer
+6. face_detector
 
 ### 1. TicTacToe
   Script name: `tic_tac.py`
@@ -38,3 +39,7 @@ Codes made in python
   Script name: `image_resize.py`\
   A script to change the image scale, just put path to the directory in which all the images that needs to be changes are present, put the width and height of that you need for the new image.
   Made using openCV
+
+### 6. Face Detector
+  Script name: `face_detector.py`
+  This script identifies if there is a face in the given picture and marks it with a rectangle.
