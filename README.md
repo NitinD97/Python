@@ -8,7 +8,8 @@ Codes made in python
 3. Black Jack
 4. Robot Tile Cleanup
 5. Image Resizer
-6. face_detector
+6. Face Detector
+7. Motion Detector
 
 ### 1. TicTacToe
   Script name: `tic_tac.py`
@@ -43,3 +44,7 @@ Codes made in python
 ### 6. Face Detector
   Script name: `face_detector.py`\
   This script identifies if there is a face in the given picture and marks it with a rectangle.
+  
+### 7. TicTacToe
+  Script name: `motion_detector_1.py`\
+  This script uses OpenCV to detect any motion in the video from the camera.
