@@ -45,6 +45,6 @@ Codes made in python
   Script name: `face_detector.py`\
   This script identifies if there is a face in the given picture and marks it with a rectangle.
   
-### 7. TicTacToe
+### 7. Motion Detector
   Script name: `motion_detector_1.py`\
   This script uses OpenCV to detect any motion in the video from the camera.
