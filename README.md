@@ -34,7 +34,7 @@ Codes made in python
 
 ### 4. Robot Cleanup
   Script name: `robot_cleanup.py`\
-  A recursive script, where 0s are tiles, -1s are object. The robot has to clean all the tiles in the room, the cleaned tiles will be marked as 1 and the robot can be spawned at any coordinate inside the room.
+  A recursive script, where 0s are tiles, -1s are object. The robot has to clean all the tiles in the room, the cleaned tiles will be marked as 1 and the robot can be spawned at any coordinate inside the room. This is a recursive code.
   
 ### 5. Image Resize
   Script name: `image_resize.py`\
