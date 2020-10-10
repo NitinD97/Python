@@ -1,7 +1,7 @@
 import cv2
 import os
 
-face_cascade = cv2.CascadeClassifier('cascades/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('../cascades/haarcascade_frontalface_default.xml')
 
 
 def face_detector(images):
@@ -23,6 +23,7 @@ def face_detector(images):
 
 
 if __name__ == '__main__':
-    base_dir = 'faces'
+    base_dir = './images'
     images = os.listdir(base_dir)
+    print(images)
     face_detector(images)

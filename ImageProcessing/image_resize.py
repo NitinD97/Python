@@ -13,9 +13,11 @@ def resize(image_name, x=100, y=100):
 
 
 def try_multiple_image_resizing():
-    dir_name = 'path/to/images/directory'
+    # you need to change the path
+    dir_name = './images'
     for image in os.listdir(dir_name):
-        if not image[-4:] == '.jpg' and not image[-4:] == '.png':
+        if not image[-4:] == '.jpg' and not image[-4:] == '.png' or image.startswith('resized_'):
+            print('Already Resized image: ' + image)
             continue
         image_name = os.path.join(dir_name, image)
         # change size params
