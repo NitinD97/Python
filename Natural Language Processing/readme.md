@@ -9,8 +9,11 @@ To run the code related to spacy, follow these steps:
 -  Install Spacy \
 ``python3 -m pip install spacy``
 
--  Download data for the library: \
+-  Download data for the library. This command is for small model in english: \
 ``python3 -m spacy download en_core_web_sm``
+
+- To download large model, use: \
+``python3 -m spacy download en_core_web_lg`` 
 
 ### Find something wrong:
 If you find something wrong regarding the code/implementation. Feel free to contact me or Raise a PR.
