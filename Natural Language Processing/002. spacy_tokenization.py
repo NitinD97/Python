@@ -56,22 +56,3 @@ if __name__ == '__main__':
     for chunk in doc.noun_chunks:
         # prints each chunk of noun
         print(chunk)
-
-    """
-    We can visualize tokenization.
-    displacy is built in visualizer
-    """
-    from spacy import displacy
-    # "dep" stands for syntactic dependency
-    html = displacy.render(doc, style="dep", options={'distance': 110}, page=True, minify=True)
-    output_path = Path("./002_syntactic_dep.html")
-    output_path.open("w", encoding="utf-8").write(html)
-
-    # spacy can also visualize entities
-    text = u'Apple sold nearly 5k iPhones worth $6 million in last 6 months.'
-    doc = nlp(text)
-    # "ent" stands for entity
-    html = displacy.render(doc, style="ent", options={'distance': 110}, page=True, minify=True)
-    output_path = Path("./002_entity.html")
-    output_path.open("w", encoding="utf-8").write(html)
-
