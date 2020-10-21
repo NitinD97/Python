@@ -12,10 +12,10 @@ To run the code related to spacy, follow these steps:
 -  Install nltk \
 ``python3 -m pip install nltk``
 
--  Download data for the library. This command is for small model in english: \
+-  Download data for the library. This command is for small model (~12 mb) in english: \
 ``python3 -m spacy download en_core_web_sm``
 
-- To download large model, use: \
+- To download large model(~790 mb), use: \
 ``python3 -m spacy download en_core_web_lg`` 
 
 ### Find something wrong:
