@@ -3,7 +3,7 @@ import spacy
 if __name__ == '__main__':
 
     # Download model using "python3 -m spacy download en_core_web_sm"
-    # 'en_core_web_sm' this is a small english model
+    # 'en_core_web_sm' this is a small english model ~12MB
     # 'en_core_web_lg' this is a larger version of english model ~790MB
 
     # Here we load a model that we downloaded

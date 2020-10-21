@@ -9,6 +9,9 @@ To run the code related to spacy, follow these steps:
 -  Install Spacy \
 ``python3 -m pip install spacy``
 
+-  Install nltk \
+``python3 -m pip install nltk``
+
 -  Download data for the library. This command is for small model in english: \
 ``python3 -m spacy download en_core_web_sm``
 
