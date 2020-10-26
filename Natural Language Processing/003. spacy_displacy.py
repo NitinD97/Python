@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
     # "dep" stands for syntactic dependency
     html = displacy.render(doc, style="dep", options={'distance': 110}, page=True, minify=True)
-    output_path = Path("./003_syntactic_dep.html")
+    output_path = Path("./generatedFiles/003. syntactic_dep.html")
     output_path.open("w", encoding="utf-8").write(html)
 
     # spacy can also visualize entities
@@ -21,5 +21,5 @@ if __name__ == '__main__':
     doc = nlp(text)
     # "ent" stands for entity
     html = displacy.render(doc, style="ent", options={'distance': 110}, page=True, minify=True)
-    output_path = Path("./003_entity.html")
+    output_path = Path("./generatedFiles/003. entity.html")
     output_path.open("w", encoding="utf-8").write(html)

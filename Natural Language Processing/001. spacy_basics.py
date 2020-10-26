@@ -17,7 +17,6 @@ if __name__ == '__main__':
     print("Noun phrases:", [chunk.text for chunk in doc.noun_chunks])
     print("Verbs:", [token.lemma_ for token in doc if token.pos_ == "VERB"], end='\n\n')
 
-
     # in a pipeline, spacy does many task, mainly tagging, parsing and NER(Name Entity Recognition)
     nlp_pipeline = nlp.pipeline
     print(*nlp_pipeline, sep='\n')
