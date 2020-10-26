@@ -12,9 +12,10 @@ if __name__ == '__main__':
 
     text = u"Tesla is looking at buying a U.S. startup for $6 million. Let's see what they do."
     doc = nlp(text)
+    print('>>>', doc.text, end='\n\n')
 
     print("Noun phrases:", [chunk.text for chunk in doc.noun_chunks])
-    print("Verbs:", [token.lemma_ for token in doc if token.pos_ == "VERB"])
+    print("Verbs:", [token.lemma_ for token in doc if token.pos_ == "VERB"], end='\n\n')
 
     # in a pipeline, spacy does many task, mainly tagging, parsing and NER(Name Entity Recognition)
     nlp_pipeline = nlp.pipeline
