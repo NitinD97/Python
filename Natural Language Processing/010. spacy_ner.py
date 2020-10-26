@@ -90,8 +90,8 @@ if __name__ == '__main__':
     from spacy import displacy
     from pathlib import Path
 
-    text = u'Apple sold nearly 5k iPhones worth $6 million in last 6 months. Sony on the other hand sold' \
-           u' a million TV sets and headphones. These both tech giants are in a competition.'
+    text = u'Apple sold nearly 5k iPhones worth $6 million in last 6 months. Sony sold' \
+           u'  40 thousand iPhones worth 40 million dollars in India. These both tech giants are in a competition.'
     doc = nlp(text)
     sent_list = []
     for sent in doc.sents:
@@ -102,5 +102,14 @@ if __name__ == '__main__':
     html = displacy.render(sent_list, style="ent", options={'distance': 110}, page=True, minify=True)
     output_path = Path("./generatedFiles/010. ner_visualization.html")
     output_path.open("w", encoding="utf-8").write(html)
+
+    # to set colors to the entity types
+    colors = {'ORG': 'orange'}
+    # using options, 'ents' is a list of entities that we want to visualize
+    options = {'ents': ['PRODUCT', 'GPE', 'ORG'], 'distance': 110, 'colors': colors}
+    html = displacy.render(sent_list, style="ent", options=options, page=True, minify=True)
+    output_path = Path("./generatedFiles/010. ner_visualization_options.html")
+    output_path.open("w", encoding="utf-8").write(html)
+
 
 
