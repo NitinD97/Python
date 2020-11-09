@@ -17,5 +17,16 @@ To install the dependencies in `venv`:
 Run the program using the following command:
 > python3 script_name.py
 
+### Repository Insights:
+##### Code Cheat sheet 
+This contains concepts related to python. Any code that is specific to python concept can be added here. 
+
+##### Image Processing 
+Codes related to open CV will be present in this directory
+
+##### Natural Language Processing
+Codes related to Natural Language Processing (spacy, nltk) will be present here. 
+
+
 ### See any issues:
 If you see any issues or want to improve the code, please feel free to raise a Pull Request.
