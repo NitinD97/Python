@@ -1,7 +1,8 @@
 # Python
 Codes made in python. \
 Just a simple python repository, for adding and collecting different types of python codes.
-Codes are for learning purposes only.
+Codes in this repository are for reference and usage if required. These can also be used to clarify general concepts 
+in python. 
 
 ## Running the scripts:
 The scripts are written in `python3.6`. 
