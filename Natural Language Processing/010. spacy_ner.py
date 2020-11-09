@@ -111,5 +111,3 @@ if __name__ == '__main__':
     output_path = Path("./generatedFiles/010. ner_visualization_options.html")
     output_path.open("w", encoding="utf-8").write(html)
 
-
-
